@@ -1,7 +1,9 @@
 //nomi
 import fullName from "./names.js";
 const result = fullName('Veronica', 'Magnanimi');
-console.log(result)
+
+import chalk from 'chalk';
+console.log(chalk.bgGray(result));
 
 //hobby
 import evening from "./hobbies.js";
