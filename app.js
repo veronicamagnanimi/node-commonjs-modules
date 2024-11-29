@@ -7,3 +7,13 @@ console.log(result)
 const allMyHobbies = require('./hobbies');
 const iLike = allMyHobbies('Ginnastica Artistica', 'Recitazione', 'Viaggi');
 console.log(iLike);
+
+//funzione senza parametri 
+function nameHobbies () {
+    return {
+        fullName: result,
+        hobbies: iLike
+    }
+}
+
+console.log(nameHobbies());
